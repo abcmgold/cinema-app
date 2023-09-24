@@ -1,0 +1,346 @@
+
+.text-align-left {
+    /* display: flex;
+    justify-content: start;
+    align-items: center; */
+    width: 100%;
+}
+
+.text-align-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.text-align-center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.row-selected {
+    background-color: #d1edf4;
+}
+
+.row-selected .table--icon {
+    background-color: #ffffff;
+}
+
+.table--icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.row-hovered {
+    background-color: #d1edf4;
+    cursor: pointer;
+}
+
+.row-hovered .table--icon {
+    background-color: #ffffff;
+}
+
+.table--icon:hover {
+    box-shadow: #a09e9e 1px 2px 4px 1px;
+    cursor: pointer;
+}
+
+/* .table--icon:hover {
+    background-color: #ffffff;
+} */
+
+.table--icon-pencil {
+    background-image: url(../../assets/icon/Icon-qlts.svg);
+    background-repeat: no-repeat;
+    background-position: -196px -195px;
+}
+
+.table--icon-duplicate {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -238px -106px;
+}
+
+.table--icon-delete {
+    background: url(../../assets/icon/Icon-qlts.svg) no-repeat -239px -239px;
+}
+
+.selected {
+    background-color: #f5f5f5;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.table--loading {
+    width: 100%;
+    height: calc(100vh - 238px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    background-color: #ffffff;
+}
+
+@keyframes shimmer {
+    0% {
+        /* Trạng thái ban đầu */
+        opacity: 0;
+    }
+    50% {
+        /* Trạng thái giữa */
+        opacity: 1;
+    }
+    100% {
+        /* Trạng thái cuối */
+        opacity: 0;
+    }
+}
+
+
+.table--loading svg {
+    width: 60px;
+    height: 60px;
+    animation: rotate 2s linear infinite;
+}
+/* 
+.table {
+    display: flex;
+} */
+
+.table__content {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    overflow-x: auto;
+    overflow-y: hidden;
+    user-select: none;
+}
+
+.table__content--header {
+    display: flex;
+}
+
+.table__content--header-item {
+    display: block;
+    font-weight: bold;
+    height: 40px;
+    background-color: #f5f5f5;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #e9e9e9;
+}
+
+.table__content--row {
+    display: flex;
+    line-height: 40px;
+    height: 40px;
+}
+
+.cell--item--checkbox {
+    position: sticky;
+    left: 0;
+}
+
+.table__content--body {
+    height: 500px;
+    width: 1670px;
+    background-color: #ffffff;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex: 1;
+}
+
+.table__fixed {
+    background-color: white;
+    position: absolute;
+    right: 0px;
+    width: 120px;
+    height: 100%;
+    top: 0px;
+    height: calc(100% - 54px);
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 195px);
+    z-index: 10;
+}
+
+.table__fixed--body {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.table__fixed--sumary {
+    height: 40px;
+    z-index: 2;
+    background-color: #f5f5f5;
+    border-top: 1px solid #e9e9e9;
+}
+
+.table__fixed .table-list-icons {
+    border-bottom: 1px solid #e9e9e9;
+    border-left: 1px solid #e9e9e9;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.table-list-icons:hover {
+    /* background-color: #d1edf4; */
+    cursor: pointer;
+}
+
+.table__fixed--header {
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    border-left: 1px solid #e9e9e9;
+}
+
+.table__content--row .cell--item:not(:last-child) {
+    border-bottom: 1px solid #e9e9e9;
+    border-right: 1px solid #e9e9e9;
+    height: 40px;
+}
+
+.table__content--row .cell--item:last-child {
+    border-right: 1px solid #e9e9e9;
+    height: 40px;
+}
+
+
+.cell--item {
+    padding: 0px 16px;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.cell--item--checkbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table__content--body::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+}
+.table__content--body::-webkit-scrollbar-thumb {
+    background: #d6d6d6;
+}
+.table__content--body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.table__content::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+}
+.table__content::-webkit-scrollbar-thumb {
+    background: #d6d6d6;
+}
+.table__content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.table__fixed--body::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+}
+.table__fixed--body::-webkit-scrollbar-thumb {
+    background: #d6d6d6;
+}
+.table__fixed--body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.scroll-bar-y {
+    position: absolute;
+    width: 7px;
+    right: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 480px;
+    top: 40px;
+    background-color: #f1f1f1;
+}
+
+.scroll-bar-content {
+    height: 699.768px;
+    width: 7px;
+    background-color: #d6d6d6;
+}
+
+.table__content--sumary {
+    width: 1666px;
+    height: 40px;
+    background-color: white;
+    z-index: 1;
+    display: flex;
+    background-color: #f5f5f5;
+}
+
+.table__content--sumary div {
+    border-right: 1px solid #e9e9e9;
+    border-top: 1px solid #e9e9e9;
+}
+
+.table__content--empty {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    right: 0;
+    bottom: 70px;
+    background-image: url(../../assets/icon/img-EmptyData.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: center;
+}
+
+
+.stay-right {
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 9;
+}
+
+.grid-loading-container {
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 135px);
+    top: 0;
+    left: 0;
+    background: #fff;
+    z-index: 11;
+    overflow: hidden;
+    top: 40px;
+}
+
+.grid-loading-container .ld-row {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.grid-loading-container .ld-row .ld-item {
+    height: 6px;
+    border-radius: 10px;
+    margin: 15px 8px 14px;
+}
+
+.shimmer {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right,#eff1f3 4%,#e2e2e2 25%,#eff1f3 36%);
+    background-size: 1000px 100%;
+}

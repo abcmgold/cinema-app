@@ -1,0 +1,9 @@
+.admin-content {
+    padding: 24px;
+    width: 100%;
+    background-color: #dceffd;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    flex: 1;
+}

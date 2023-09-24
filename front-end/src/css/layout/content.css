@@ -1,0 +1,9 @@
+.content {
+    background-color: #334155;
+    padding: 24px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    min-height: 100vh;
+    /* min-height: 700px; */
+}

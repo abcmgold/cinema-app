@@ -1,0 +1,22 @@
+.input-group {
+    margin: 4px 0px;
+}
+
+.input-group input {
+    width: 100%;
+}
+
+.input__text--label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+
+.input__icon--force {
+    color: red;
+    margin-left: 2px;
+    display: block;
+}

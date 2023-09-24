@@ -1,0 +1,7 @@
+.el-popper {
+    /* padding: 10px !important; */
+    /* transform: none !important; */
+}
+ .el-popper span {
+    font-size: 14px;
+}

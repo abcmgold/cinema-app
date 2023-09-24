@@ -1,0 +1,140 @@
+
+.combo-box .combox__icon-down {
+    position: absolute;
+    right: 8px;
+    top: 15px;
+    width: 8px;
+    height: 5px;
+}
+
+.combox__input--icon {
+    width: 100%;
+    background-image: url("../../assets/icon/filter.svg");
+    background-position: 8px center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    padding: 0px;
+    padding-left: 42px;
+    height: 36px;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    outline: none;
+    color: #000000;
+    border: 1px solid #afafaf;
+}
+
+.combox__input {
+    width: 100%;
+    padding: 0px 12px;
+    height: 36px;
+    /* border: 1px solid #E6E6E6; */
+    border-radius: 4px;
+    outline: none;
+    color: #000000;
+    border: 1px solid #afafaf;
+}
+
+.combox__input::placeholder {
+    color: #999999;
+}
+
+.combox__input:hover {
+    background-color: #F6F6F6;
+    cursor: pointer;
+}
+
+.combox__input:focus {
+    border-color: var(--primary-color);
+}
+
+.combox__input-seperate {
+    position: absolute;
+    right: 36px;
+    top: 0;
+    height: 36px;
+    width: 1px;
+    background-color: #E6E6E6;
+}
+
+.combox__items {
+    position: absolute;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin: 0;
+    padding: 8px 8px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 16px rgba(23,27,42,0.24);
+    max-height: 308px;
+    overflow:overlay;
+    display: none;
+    z-index: 10;
+}
+
+.combox__input:focus ~ .combox__items {
+    display: block;
+}
+
+.combox__input--icon:focus ~ .combox__items {
+    display: block;
+}
+
+.combox__input--icon:focus {
+    border: 1px solid var(--primary-color);
+}
+
+
+.combox__items-item {
+    list-style: none;
+    height: 36px;
+    padding: 0 10px 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+}
+
+.combox__items-item:hover {
+    background-color: var(--hover-color);
+    cursor: pointer;
+}
+
+.combox__items-item-selected {
+    color:var(--primary);
+}
+
+.combo-box--small .el-input__wrapper {
+    height: 32px !important;
+    width: 60px !important;
+    border: none !important;
+}
+
+.el-select.combo-box {
+    width: 100%;
+    height: 36px;
+}
+
+.combo-box .el-input__wrapper{
+    height: 36px;
+    border: 1px solid #afafaf;
+    box-shadow: none !important;
+}
+
+.combo-box .el-input__wrapper {
+    border: 1px solid #afafaf;
+    box-shadow: none !important;
+    height: 36px !important;
+    padding: 0px 12px 0px 12px !important;
+}
+
+.combo-box .el-select .el-input.is-focus .el-input__wrapper {
+    box-shadow: none !important;
+    border-color: var(--primary-color) !important;
+}
+
+.el-select .el-input.is-focus .el-input__wrapper {
+    box-shadow: none !important;
+}
+
+.el-select .el-input__wrapper.is-focus {
+    box-shadow: none !important;
+}

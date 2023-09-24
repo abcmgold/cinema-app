@@ -1,0 +1,9 @@
+:root {
+    --primary-color: #1aa4c8;
+    --hover-color: #2fb0d1;
+    --sidebar-color: #1c3048;
+    --sidebar-width: 200px;
+    --header-height: 56px;
+    --border-radius: 4px;
+    --small-sidebar-width: 56px;
+}

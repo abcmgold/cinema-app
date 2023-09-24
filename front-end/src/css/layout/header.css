@@ -1,0 +1,88 @@
+.header {
+    height: 56px;
+    background-color: #334155;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px;
+}
+
+.header__logo {
+    font-size: 24px;
+    color: #b11500;
+    font-weight: bold;
+}
+
+.header--items {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    column-gap: 36px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.header--item {
+    border-bottom: 4px solid transparent;
+    padding-bottom: 16px;
+}
+
+.header--item:hover {
+    color: red;
+    border-bottom: 4px solid red;
+    cursor: pointer;
+}
+/* 
+.router-link-active {
+    color: red;
+    border-bottom: 4px solid red;
+    cursor: pointer;
+} */
+
+.header__actions--unlogin {
+    display: flex;
+    column-gap: 12px;
+}
+.header__actions--login {
+    display: flex;
+    column-gap: 5px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logout-btn {
+    cursor: pointer;
+}
+
+.logout-msg {
+    position: relative;
+    cursor: pointer;
+}
+
+.function-list {
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .16);
+    list-style: none;
+    width: 100%;
+    min-width: 200px;
+    padding: 10px 0px;
+    z-index: 10;
+}
+
+.function-list li {
+    cursor: pointer;
+    height: 40px;
+    display: flex;
+    align-items: center;   
+    padding: 0px 10px
+}
+
+.function-list li:hover {
+    background-color: #ccc;
+}

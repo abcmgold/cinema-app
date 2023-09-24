@@ -1,0 +1,36 @@
+.info__sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding-left: 120px;
+}
+
+.info__items {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0px;
+    row-gap: 12px;
+}
+
+.info__sidebar--title {
+    font-size: 20px;
+    color: #e71a0f;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+ 
+.info__items--title {
+    background-color: #cccccc;
+    color: #666666;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    padding-left: 24px;
+}
+
+.info__items .router-link-active {
+    background-color: #e71a0f;
+    color: white;
+}

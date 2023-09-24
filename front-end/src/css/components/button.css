@@ -1,0 +1,179 @@
+
+
+.btn--book {
+    height: 40px;
+    background-color: black;
+    color: #cdc197;
+    font-size: 16px;
+    border-radius: 0px;
+}
+
+.btn {
+    border-radius: 4px;
+    height: 36px;
+    font-size: 14px;
+    padding: 8px 16px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    position:relative;
+    min-width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    cursor: pointer;
+}
+
+.btn--primary--red { 
+    background-color: #b11500;
+    color: white;
+}
+
+.btn--primary:hover {
+    background-color: #1688a6;
+    cursor:pointer;
+    outline: 2px solid #cce4ff;
+}
+
+.btn--primary:active {
+    background-color: rgb(22, 136, 166, 0.8);
+}
+
+.btn--primary:focus {
+    background-color: rgb(22, 136, 166, 0.9);
+}
+
+.btn--noborder {
+    background-color: #FFFFFF;
+    color: #000000;
+    cursor: pointer;
+    border: none;
+}
+
+.btn--noborder:hover {
+    background-color: rgb(245, 245, 245);
+}
+
+.btn--noborder:active {
+    background-color: rgb(245, 245, 245, 0.8);
+}
+
+.btn--noborder:focus {
+    background-color: rgb(245, 245, 245, 0.9);
+}
+
+
+/* .btn--noborder:focus {
+    border: 1px solid #2fb0d1;
+} */
+
+.btn--primary {
+    background-color: var(--primary-color);
+}
+
+.btn--sub {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #afafaf;
+}
+
+.btn--sub:hover {
+    border: 1px solid #2fb0d1;;
+    background-color: transparent;
+    cursor: pointer;
+    color:#2fb0d1;;
+}
+
+/* .btn--noborder:focus,
+.btn--sub:focus {
+    border: 1px solid #2fb0d1;;
+    background-color: transparent;
+    cursor: pointer;
+    color:#2fb0d1;;
+}  */
+
+
+
+/* .btn--primary:focus {
+    background-color: #1688a6;
+    cursor:pointer;
+} */
+
+.btn--icon {
+    background-repeat: no-repeat;
+    background-position: 9px center;
+    background-size: 20px;
+    padding-left: 36px;
+    padding-right: 16px;
+}
+
+.btn--link {
+    color: #50b83c;
+    background-color: transparent;
+}
+
+.btn--link:hover {
+    color:#57C841;
+    cursor: pointer;
+}
+
+.btn--icon-add {
+    background-image: url(../../assets/icon/add.png);
+}
+
+.btn--combo {
+    background-repeat: no-repeat;
+    background-position: right 12px center;
+    background-size: 16px;
+    padding-left: 16px;
+    padding-right: 56px;
+}
+
+.btn--single {
+    background-color: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: 8px center;
+    background-size: 20px;
+    min-width: 0;
+    width: 36px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, .16);
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.btn--single:hover {
+    background-color: #f5f5f5;
+}
+
+.btn--single:active {
+    background-color: rgb(245, 245, 245, 0.8);
+}
+
+.btn--combo-next {
+    background-image: url(../../assets/icon/btn-next-page.svg);
+}
+
+.btn--combo-excel {
+    background-image: url(../../assets/icon/excel-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+
+}
+
+.btn--combo-delete {
+    background-image: url(../../assets/icon/icon-delete.svg );
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.btn__separate {
+    position: absolute;
+    right: 40px;
+    height: 100%;
+    background-color: #FFF;
+    width: 1px;
+    top:0px;
+}

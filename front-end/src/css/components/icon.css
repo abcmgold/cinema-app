@@ -1,0 +1,177 @@
+.icon--excel {
+    background-image: url(../../assets/icon/excel-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+
+.icon--delete {
+    background: url('../../assets/icon/qlts-icon.svg') no-repeat -463px -111px;
+	width: 18px;
+	height: 18px;
+}
+
+.icon--home {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -21px -153px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon--car {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -65px -153px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon--estate {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -110px -153px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon--tool {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -153px -153px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon--menu {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -197px -155px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon--find {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -241px -153px;
+    width: 24px;
+    height: 24px;
+}
+
+.icon--report {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -329px -153px;
+    width: 24px;
+    height: 24px;
+}
+.icon--down {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -72px -338px;
+    width: 8px;
+    height: 5px;
+}
+
+.icon--up {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -28px -338px;
+    width: 8px;
+    height: 5px;
+}
+
+.icon--left {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -162px -336px;
+    width: 8px;
+    height: 5px;
+}
+
+.icon--right {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -118px -336px;
+    width: 8px;
+    height: 5px;
+}
+
+.icon--down--big {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -158px -293px;
+    width: 12px;
+    height: 7px;
+}
+
+.sidebar--small .icon--down--big {
+    display: none;
+}
+
+.icon--close {
+    width: 18px;
+    height: 18px;
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-position: -375px -287px;
+    background-repeat: no-repeat;
+}
+
+.icon--warning {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-position: -416px -66px;
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 20px;
+}
+
+
+.icon--success {
+    background: url(../../assets/icon/qlts-icon-2.svg) no-repeat -464px -292px;
+	width: 32px;
+	height: 32px;
+}
+
+.icon--error {
+    background: url(../../assets/icon/qlts-icon-2.svg) no-repeat -568px -292px;
+	width: 32px;
+	height: 32px;
+}
+
+.icon--reload {
+    background: url(../../assets/icon/Icon-qlts.svg) no-repeat -66px -288px;
+	width: 20px;
+	height: 16px;
+}
+
+.icon--add {
+    background: url(../../assets/icon/Icon-qlts.svg) no-repeat -1082px -159px;
+	width: 12px;
+	height: 11px;
+}
+
+.icon--update {
+    background: url(../../assets/icon/Icon-qlts.svg) no-repeat -200px -200px;
+	width: 16px;
+	height: 16px;
+}
+
+.icon--duplicate {
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-repeat: no-repeat;
+    background-position: -244px -112px;
+    width: 16px;
+    height: 16px;
+}
+
+.icon--delete {
+    background: url(../../assets/icon/qlts-icon.svg) no-repeat -463px -111px;
+	width: 18px;
+	height: 18px;
+}
+
+.icon--user {
+    background: url(../../assets/icon/user-icon.svg) no-repeat 0px 0px;
+	width: 22px;
+	height: 22px;
+}

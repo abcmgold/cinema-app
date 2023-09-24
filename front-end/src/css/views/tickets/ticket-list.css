@@ -1,0 +1,58 @@
+.btn--checkout {
+    color: #67c23a;
+    background-color: #f0f9eb;
+    border-color: #e1f3d8;
+    border-width: 0.5px;
+    border-style: solid;
+    padding: 10px 5px;
+    font-size: 10px;
+    margin: 0px 5px;
+    border-radius: 4px;
+}
+
+.btn--notcheckout {
+    color: #409eff;
+    background-color: #ecf5ff;
+    border-color: #d9ecff;
+    border-width: 0.5px;
+    border-style: solid;
+    padding: 10px 5px;
+    margin: 0px 5px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.btn-received {
+    color: #67c23a;
+    background-color: #f0f9eb;
+    border-color: #e1f3d8;
+    border-width: 0.5px;
+    border-style: solid;
+    padding: 10px 5px;
+    margin: 0px 5px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.btn--notreceived {
+    color: #409eff;
+    background-color: #ecf5ff;
+    border-color: #d9ecff;
+    border-width: 0.5px;
+    border-style: solid;
+    padding: 10px 5px;
+    margin: 0px 5px;
+    border-radius: 4px;
+    font-size: 10px;
+}
+
+.status--list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.movie-list--actions {
+    position: relative;
+}

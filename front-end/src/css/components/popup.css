@@ -1,0 +1,149 @@
+.popup {
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+}
+
+.popup__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px 16px 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+.popup__header__close {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.popup__header__title {
+    font-size: 24px;
+    font-weight: 700;
+    font-weight: bold;
+    color: #1F1F1F;
+}
+
+.popup__container {
+    width: 100%;
+    padding: 0px 12px;
+}
+
+.popup__item-input {
+    width: 100%;
+}
+
+.popup__row {
+    width: 100%;
+    display: flex;
+    margin: 12px 0px;
+}
+
+.popup__row input {
+    width: 100%;
+}
+
+.popup__row-col-3 {
+    width: 25%;
+    padding: 0px 12px;
+}
+
+.popup__row-col-9 {
+    width: 75%;
+    padding: 0px 12px;
+}
+
+.popup__row-col-12 {
+    padding: 0px 12px;
+    width: 100%;
+}
+
+.popup__row-col-6 {
+    width: 50%;
+    padding: 0px 12px;
+}
+
+.popup__row-col-4 {
+    width: 33.33%;
+    padding: 0px 12px;
+}
+
+.popup__item-label {
+    display: flex;
+    align-items: center;
+}
+
+.popup__item {
+    width: 100%;
+    margin: 2px 0px;
+}
+
+.popup__item-icon-force {
+    display: none;
+}
+.popup__item-force .popup__item-icon-force {
+    color: red;
+    margin-left: 2px;
+    display: block;
+}
+
+.popup__btns {
+    margin: 8px 0px 0px 0px;
+    display: flex;
+    justify-content: end;
+}
+
+.popup__btn {
+    margin-left: 12px;
+}
+
+.popup__action-btn {
+    display: flex;
+    flex-direction: row-reverse;
+    column-gap: 12px;
+    justify-content: end;
+    align-items: center;
+    padding-right: 24px;
+    margin-top: 16px;
+    height: 60px;
+    background-color: #e6e6e6;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.popup__action-btn :not(:last-child) {
+    margin-right: 8px;
+}
+
+
+.popup__container::-webkit-scrollbar {
+    height: 7px;
+    width: 7px;
+}
+.popup__container::-webkit-scrollbar-thumb {
+    background: #d6d6d6;
+}
+.popup__container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.image__preview {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #afafaf;
+    border-radius: 4px;
+}
+
+.image__preview img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.popup__datepicker {
+    height: 36px;
+    outline: none;
+    cursor: pointer;
+}

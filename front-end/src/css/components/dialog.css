@@ -1,0 +1,52 @@
+.dialog {
+    width: 350px;
+    background-color: #FFF;
+    border-radius: var(--border-radius);
+    display: block;
+    z-index: 1000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dialog__btn {
+    display: flex;
+}
+
+.dialog__header__icon-close {
+    width: 18px;
+    height: 18px;
+    background-image: url(../../assets/icon/qlts-icon.svg);
+    background-position: -375px -287px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.dialog__discription {
+    display: flex;
+    align-items: center;
+    padding: 36px 24px 36px 24px;
+    column-gap: 12px;
+}
+
+.dialog__discription--icon {
+    font-size: 24px;
+    color: var(--primary-color);
+}
+
+.dialog__list-btns {
+    padding: 0px 24px 24px 24px;
+    display: flex;
+    justify-content: end;
+}
+
+.dialog__list-btns :not(:last-child) {
+    margin-right: 8px;
+}
+
+/* .dialog__discription--text {
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis;
+} */

@@ -1,0 +1,14 @@
+.checkbox {
+	width: 17px;
+    height: 17px;
+    border: 1px solid #bdb9b9;
+    border-radius: 3px;
+    cursor: pointer;
+	background-color: #ffffff;
+}
+
+.checkbox.checked {
+    background: url('../../assets/icon/icons.png') no-repeat -23px -233px;
+    width: 17px;
+    height: 17px;
+}

@@ -1,0 +1,70 @@
+.dp__icon {
+    fill: #000 !important;
+}
+
+.dp__input {
+    border: 1px solid #afafaf !important;
+    border-radius: var(--border-radius) !important;
+    font-size: 14px !important;
+}
+
+
+.dp__input_icon {
+    right: 0px !important;
+    left: calc(100% - 40px) !important;
+    background: url(../../assets/icon/qlts-icon.svg) no-repeat -275px -62px;
+	width: 18px;
+	height: 18px;
+}
+
+.dp__input_icon path {
+    display: none !important;
+}
+
+.dp__icon.dp__clear_icon.dp__input_icons {
+    display: none !important;
+}
+
+.dp__input_icon_pad {
+    padding-left: 12px !important;
+}
+
+.dp__input_focus {
+    border-color: var(--primary-color) !important;
+}
+
+.dp__input:hover {
+    border-color: var(--primary-color) !important;
+}
+
+.dp__range_end, .dp__range_start, .dp__active_date {
+    background-color: var(--primary-color) !important;
+    border-radius: 50% !important;
+}
+.dp__date_hover_end:hover, .dp__date_hover_start:hover, .dp__date_hover:hover {
+    border-radius: 50% !important;
+}
+
+.dp__today {
+    border: 1px solid var(--primary-color) !important;
+    border-radius: 50% !important;
+}
+
+.dp__action_select {
+    background-color: var(--primary-color) !important;
+}
+
+.dp__input_invalid {
+    box-shadow: none !important;
+    border-color: #E61D1D !important;
+}
+
+.dp__input_valid {
+    box-shadow: none !important;
+}
+
+@media (width: 1024px) {
+    .dp__menu {
+        transform: translate(-33%, -100%) !important;
+    }
+}

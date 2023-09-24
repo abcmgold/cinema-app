@@ -1,0 +1,124 @@
+.admin--header {
+    height: var(--header-height);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+}
+
+.header__left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__right-content {
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 12px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.header__right-content-text {
+    margin: 0px 12px;
+}
+
+.header__right-content-select {
+    position: relative;
+    background-color:  #1aa4c833;
+    margin-left: 12px;
+    border-radius: 4px;
+}
+
+.header__right-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    height: 100%;
+}
+
+.header__right-icons {
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__right-icon {
+    height: 100%;
+    margin: 0px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.header__right-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.header__right-content-select-input {
+    background-color:  transparent;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+.header__right-content-select-icon-up {
+    position: absolute;
+    background-image: url(../../../assets/icon/qlts-icon.svg);
+    background-position: -204px -332px;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+    right: 8px;
+    top: 9px;
+}
+
+.header__right-content-select-icon-down {
+    position: absolute;
+    background-image: url(../../../assets/icon/qlts-icon.svg);
+    background-position: -204px -343px;
+    background-repeat: no-repeat;
+    width: 8px;
+    height: 8px;
+    right: 8px;
+    bottom: 6px;
+}
+
+.header__right-content-select-label {
+    padding: 0px 12px;
+}
+
+.header__right-icon  .user__icon-down {
+    width: 8px;
+    height: 5px;
+    background-image: url(../../../assets/icon/qlts-icon.svg);
+    background-position: -72px -338px;;
+    background-repeat: no-repeat;
+    margin-left: 10px;
+
+}
+
+.header__right-sub-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
