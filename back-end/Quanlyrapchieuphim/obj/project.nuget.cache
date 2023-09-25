@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Nb6TmXuM6MoPpxz/ndmJB0v8BzDHpfE6EVyjCCbYniwbYWW5+Xve9db/mOAtl+WVSmRqYKylbjR3m6Ec3zFfPA==",
+  "dgSpecHash": "K1B4crIz18vYJPN8PdaNpX32AHlJ1IVShuMpzjHyVU7/ATDgSEVSf0GlI5SXm/GA+5FZO/0pX5FL+ISSU7cF/Q==",
   "success": true,
-  "projectFilePath": "D:\\Documents\\DaiHoc\\C#\\Quanlyrapchieuphim\\Quanlyrapchieuphim\\Quanlyrapchieuphim.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\quanlyrapchieuphim\\back-end\\Quanlyrapchieuphim\\Quanlyrapchieuphim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\bouncycastle.cryptography\\2.2.1\\bouncycastle.cryptography.2.2.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\dapper\\2.0.143\\dapper.2.0.143.nupkg.sha512",

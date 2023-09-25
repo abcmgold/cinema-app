@@ -1531,11 +1531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\DaiHoc\\C#\\Quanlyrapchieuphim\\Quanlyrapchieuphim\\Quanlyrapchieuphim.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\quanlyrapchieuphim\\back-end\\Quanlyrapchieuphim\\Quanlyrapchieuphim.csproj",
       "projectName": "Quanlyrapchieuphim",
-      "projectPath": "D:\\Documents\\DaiHoc\\C#\\Quanlyrapchieuphim\\Quanlyrapchieuphim\\Quanlyrapchieuphim.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\quanlyrapchieuphim\\back-end\\Quanlyrapchieuphim\\Quanlyrapchieuphim.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\DaiHoc\\C#\\Quanlyrapchieuphim\\Quanlyrapchieuphim\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\quanlyrapchieuphim\\back-end\\Quanlyrapchieuphim\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
